@@ -22,7 +22,7 @@ Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*
 - [ ] *later uitwerken*
 
 Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
-- [ ] *later uitwerken*
+- [ ] *later uitwerken
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
 
@@ -31,3 +31,4 @@ Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
 - manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3
 - icon http://www.iconarchive.com/show/android-lollipop-icons-by-dtafalonso/Play-Games-icon.html
 - ...
+s
