@@ -121,7 +121,9 @@ if (keyIsDown (KEY_LEFT)) {
 }
 
 if (keyIsDown (KEY_UP)) {
- spelerX = spelerX + 60;
+ spelerY = spelerY - 60;
+}
+
 };
 
 /**
