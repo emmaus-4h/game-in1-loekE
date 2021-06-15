@@ -21,7 +21,10 @@ const UITLEG = 0;
 const SPELEN = 1;
 const GAMEOVER = 2;
 var spelStatus = SPELEN;
-
+var KeyIsDown
+const KEY_RIGHT = 39;
+const KEY_LEFT = 37;
+const KEY_UP = 38;
 var spelerX = 450; // x-positie van speler
 var spelerY = 670; // y-positie van speler
 
@@ -89,8 +92,10 @@ var tekenSpeler = function(x, y) {
  * Updatet globale variabelen met positie van vijand of tegenspeler
  */
 var beweegVijand = function() {
-    
+
 };
+    
+
 
 
 /**
@@ -107,8 +112,17 @@ var beweegKogel = function() {
  */
 var beweegSpeler = function() {
 
-};
+if (keyIsDown (KEY_RIGHT)) {
+ spelerX = spelerX + 20;
+}
 
+if (keyIsDown (KEY_LEFT)) {
+ spelerX = spelerX - 20;
+}
+
+if (keyIsDown (KEY_UP)) {
+ spelerX = spelerX + 60;
+};
 
 /**
  * Zoekt uit of de vijand is geraakt
@@ -151,7 +165,7 @@ function setup() {
   createCanvas(1280, 720);
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
-  background('purple');
+  background('grey');
 }
 
 
