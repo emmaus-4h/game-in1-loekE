@@ -25,6 +25,7 @@ var KeyIsDown
 const KEY_RIGHT = 39;
 const KEY_LEFT = 37;
 const KEY_UP = 38;
+const KEY_DOWN = 40;
 var spelerX = 450; // x-positie van speler
 var spelerY = 670; // y-positie van speler
 
@@ -121,7 +122,11 @@ if (keyIsDown (KEY_LEFT)) {
 }
 
 if (keyIsDown (KEY_UP)) {
- spelerY = spelerY - 60;
+ spelerY = spelerY - 20;
+}
+
+if (keyIsDown (KEY_DOWN)) {
+ spelerY = spelerY + 20;
 }
 
 };
